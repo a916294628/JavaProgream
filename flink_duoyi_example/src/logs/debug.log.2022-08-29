@@ -1,0 +1,262 @@
+2022-08-29 22:16:59  [ main:0 ] - [ INFO ]  Config uses fallback configuration key 'rest.port' instead of key 'rest.bind-port'
+2022-08-29 22:16:59  [ main:9 ] - [ INFO ]  The configuration option taskmanager.cpu.cores required for local execution is not set, setting it to the maximal possible value.
+2022-08-29 22:16:59  [ main:9 ] - [ INFO ]  The configuration option taskmanager.memory.task.heap.size required for local execution is not set, setting it to the maximal possible value.
+2022-08-29 22:16:59  [ main:9 ] - [ INFO ]  The configuration option taskmanager.memory.task.off-heap.size required for local execution is not set, setting it to the maximal possible value.
+2022-08-29 22:16:59  [ main:10 ] - [ INFO ]  The configuration option taskmanager.memory.network.min required for local execution is not set, setting it to its default value 64 mb.
+2022-08-29 22:16:59  [ main:11 ] - [ INFO ]  The configuration option taskmanager.memory.network.max required for local execution is not set, setting it to its default value 64 mb.
+2022-08-29 22:16:59  [ main:12 ] - [ INFO ]  The configuration option taskmanager.memory.managed.size required for local execution is not set, setting it to its default value 128 mb.
+2022-08-29 22:16:59  [ main:18 ] - [ INFO ]  Starting Flink Mini Cluster
+2022-08-29 22:17:01  [ main:1821 ] - [ INFO ]  Starting Metrics Registry
+2022-08-29 22:17:01  [ main:1875 ] - [ INFO ]  No metrics reporter configured, no metrics will be exposed/reported.
+2022-08-29 22:17:01  [ main:1876 ] - [ INFO ]  Starting RPC Service(s)
+2022-08-29 22:17:02  [ main:2240 ] - [ INFO ]  Trying to start local actor system
+2022-08-29 22:17:02  [ flink-akka.actor.default-dispatcher-5:2979 ] - [ INFO ]  Slf4jLogger started
+2022-08-29 22:17:03  [ main:3182 ] - [ INFO ]  Actor system started at akka://flink
+2022-08-29 22:17:03  [ main:3223 ] - [ INFO ]  Trying to start local actor system
+2022-08-29 22:17:03  [ flink-metrics-7:3279 ] - [ INFO ]  Slf4jLogger started
+2022-08-29 22:17:03  [ main:3330 ] - [ INFO ]  Actor system started at akka://flink-metrics
+2022-08-29 22:17:03  [ main:3369 ] - [ INFO ]  Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService .
+2022-08-29 22:17:03  [ main:3449 ] - [ INFO ]  Starting high-availability services
+2022-08-29 22:17:03  [ main:3469 ] - [ INFO ]  Created BLOB server storage directory C:\Users\ADMINI~1\AppData\Local\Temp\blobStore-df478b7f-3b75-4387-81a0-af4997d44396
+2022-08-29 22:17:03  [ main:3487 ] - [ INFO ]  Started BLOB server at 0.0.0.0:4536 - max concurrent requests: 50 - max backlog: 1000
+2022-08-29 22:17:03  [ main:3499 ] - [ INFO ]  Created BLOB cache storage directory C:\Users\ADMINI~1\AppData\Local\Temp\blobStore-4db6e719-3959-4b0a-97c5-86ec78c871a7
+2022-08-29 22:17:03  [ main:3501 ] - [ INFO ]  Created BLOB cache storage directory C:\Users\ADMINI~1\AppData\Local\Temp\blobStore-575a9f14-783f-4fae-b0f1-8ada91ea3b44
+2022-08-29 22:17:03  [ main:3501 ] - [ INFO ]  Starting 1 TaskManager(s)
+2022-08-29 22:17:03  [ main:3509 ] - [ INFO ]  Starting TaskManager with ResourceID: 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac
+2022-08-29 22:17:03  [ main:3531 ] - [ INFO ]  Temporary file directory 'C:\Users\ADMINI~1\AppData\Local\Temp': total 256 GB, usable 128 GB (50.00% usable)
+2022-08-29 22:17:03  [ main:3548 ] - [ INFO ]  Created a new FileChannelManager for spilling of task related data to disk (joins, sorting, ...). Used directories:
+	C:\Users\ADMINI~1\AppData\Local\Temp\flink-io-1512db67-4f85-45b3-b168-62b371507a05
+2022-08-29 22:17:03  [ main:3564 ] - [ INFO ]  Created a new FileChannelManager for storing result partitions of BLOCKING shuffles. Used directories:
+	C:\Users\ADMINI~1\AppData\Local\Temp\flink-netty-shuffle-8b3a9454-da46-49ed-866b-09fcbb538cb9
+2022-08-29 22:17:03  [ main:3601 ] - [ INFO ]  Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+2022-08-29 22:17:03  [ main:3620 ] - [ INFO ]  Starting the network environment and its components.
+2022-08-29 22:17:03  [ main:3623 ] - [ INFO ]  Starting the kvState service and its components.
+2022-08-29 22:17:03  [ main:3641 ] - [ INFO ]  Config uses fallback configuration key 'akka.ask.timeout' instead of key 'taskmanager.slot.timeout'
+2022-08-29 22:17:03  [ main:3659 ] - [ INFO ]  Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+2022-08-29 22:17:03  [ flink-akka.actor.default-dispatcher-5:3686 ] - [ INFO ]  Start job leader service.
+2022-08-29 22:17:03  [ flink-akka.actor.default-dispatcher-5:3688 ] - [ INFO ]  User file cache uses directory C:\Users\ADMINI~1\AppData\Local\Temp\flink-dist-cache-1653d6e6-ef83-4052-9597-fb2cef4e3039
+2022-08-29 22:17:04  [ main:4823 ] - [ INFO ]  Config uses fallback configuration key 'rest.port' instead of key 'rest.bind-port'
+2022-08-29 22:17:04  [ main:4850 ] - [ INFO ]  Starting rest endpoint.
+2022-08-29 22:17:05  [ main:5363 ] - [ WARN ]  Log file environment variable 'log.file' is not set.
+2022-08-29 22:17:05  [ main:5364 ] - [ WARN ]  JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+2022-08-29 22:17:06  [ main:6558 ] - [ INFO ]  Rest endpoint listening at localhost:8822
+2022-08-29 22:17:06  [ main:6559 ] - [ INFO ]  Proposing leadership to contender http://localhost:8822
+2022-08-29 22:17:06  [ main:6560 ] - [ INFO ]  Web frontend listening at http://localhost:8822.
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6561 ] - [ INFO ]  http://localhost:8822 was granted leadership with leaderSessionID=03d0e1a5-c426-4680-a5a7-e9fb650247f6
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6561 ] - [ INFO ]  Received confirmation of leadership for leader http://localhost:8822 , session=03d0e1a5-c426-4680-a5a7-e9fb650247f6
+2022-08-29 22:17:06  [ main:6638 ] - [ INFO ]  Proposing leadership to contender LeaderContender: DefaultDispatcherRunner
+2022-08-29 22:17:06  [ main:6639 ] - [ INFO ]  Starting resource manager service.
+2022-08-29 22:17:06  [ main:6646 ] - [ INFO ]  Proposing leadership to contender LeaderContender: ResourceManagerServiceImpl
+2022-08-29 22:17:06  [ mini-cluster-io-thread-2:6647 ] - [ INFO ]  DefaultDispatcherRunner was granted leadership with leader id 1f34835f-e280-405d-a457-ce50199a6cae. Creating new DispatcherLeaderProcess.
+2022-08-29 22:17:06  [ pool-2-thread-1:6648 ] - [ INFO ]  Resource manager service is granted leadership with session id 68e50c74-7ec4-4965-825f-208212da8a68.
+2022-08-29 22:17:06  [ main:6651 ] - [ INFO ]  Flink Mini Cluster started successfully
+2022-08-29 22:17:06  [ mini-cluster-io-thread-2:6653 ] - [ INFO ]  Start SessionDispatcherLeaderProcess.
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6654 ] - [ INFO ]  Recover all persisted job graphs.
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6654 ] - [ INFO ]  Successfully recovered 0 persisted job graphs.
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6668 ] - [ INFO ]  Starting RPC endpoint for org.apache.flink.runtime.dispatcher.StandaloneDispatcher at akka://flink/user/rpc/dispatcher_1 .
+2022-08-29 22:17:06  [ pool-2-thread-1:6679 ] - [ INFO ]  Starting RPC endpoint for org.apache.flink.runtime.resourcemanager.StandaloneResourceManager at akka://flink/user/rpc/resourcemanager_2 .
+2022-08-29 22:17:06  [ mini-cluster-io-thread-1:6682 ] - [ INFO ]  Received confirmation of leadership for leader akka://flink/user/rpc/dispatcher_1 , session=1f34835f-e280-405d-a457-ce50199a6cae
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-5:6692 ] - [ INFO ]  Starting the resource manager.
+2022-08-29 22:17:06  [ mini-cluster-io-thread-2:6705 ] - [ INFO ]  Received confirmation of leadership for leader akka://flink/user/rpc/resourcemanager_2 , session=68e50c74-7ec4-4965-825f-208212da8a68
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-5:6707 ] - [ INFO ]  Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_2(825f208212da8a6868e50c747ec44965).
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-9:6782 ] - [ INFO ]  Resolved ResourceManager address, beginning registration
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-9:6795 ] - [ INFO ]  Registering TaskManager with ResourceID 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac (akka://flink/user/rpc/taskmanager_0) at ResourceManager
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-7:6796 ] - [ INFO ]  Received JobGraph submission 'Flink Streaming Job' (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-7:6797 ] - [ INFO ]  Submitting job 'Flink Streaming Job' (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-8:6798 ] - [ INFO ]  Successful registration at resource manager akka://flink/user/rpc/resourcemanager_2 under registration id c06d27b5547108873d5a2450bd498cde.
+2022-08-29 22:17:06  [ flink-akka.actor.default-dispatcher-7:6823 ] - [ INFO ]  Proposing leadership to contender LeaderContender: JobMasterServiceLeadershipRunner
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6837 ] - [ INFO ]  Starting RPC endpoint for org.apache.flink.runtime.jobmaster.JobMaster at akka://flink/user/rpc/jobmanager_3 .
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6846 ] - [ INFO ]  Initializing job 'Flink Streaming Job' (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6869 ] - [ INFO ]  Using restart back off time strategy FixedDelayRestartBackoffTimeStrategy(maxNumberRestartAttempts=2147483647, backoffTimeMS=1000) for Flink Streaming Job (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6918 ] - [ INFO ]  Running initialization on master for job Flink Streaming Job (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6918 ] - [ INFO ]  Successfully ran initialization on master in 0 ms.
+2022-08-29 22:17:06  [ jobmanager-io-thread-1:6936 ] - [ INFO ]  Built 1 pipelined regions in 0 ms
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7076 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@4dff8023
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7076 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7078 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@7e2fd00c
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7149 ] - [ INFO ]  No checkpoint found during restore.
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7153 ] - [ INFO ]  Using failover strategy org.apache.flink.runtime.executiongraph.failover.flip1.RestartPipelinedRegionFailoverStrategy@50e977e0 for Flink Streaming Job (3310df324bf65a32085a737eba799ddd).
+2022-08-29 22:17:07  [ jobmanager-io-thread-1:7160 ] - [ INFO ]  Received confirmation of leadership for leader akka://flink/user/rpc/jobmanager_3 , session=a0daffec-2f15-4fcc-9486-5eba32ed5103
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7162 ] - [ INFO ]  Starting execution of job 'Flink Streaming Job' (3310df324bf65a32085a737eba799ddd) under job master id 94865eba32ed5103a0daffec2f154fcc.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7163 ] - [ INFO ]  Starting scheduling with scheduling strategy [org.apache.flink.runtime.scheduler.strategy.PipelinedRegionSchedulingStrategy]
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7164 ] - [ INFO ]  Job Flink Streaming Job (3310df324bf65a32085a737eba799ddd) switched from state CREATED to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7169 ] - [ INFO ]  Source: Custom Source (1/1) (ed880356770716eb0ea98328d4d03b66) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7169 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8) (aa05f185bbdbb201ede975c1edc43b5d) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7169 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8) (9f746c04aee141f50d32a3955742053e) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8) (97aecb496d4d4230bba266c8f19ee2d5) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8) (a5120b90cc7c6d951f8042ca537bce58) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8) (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8) (c37d0a8ba6ab8f31e160c45de9d62b39) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8) (07c0daa3614af29449bf71af6daa1d44) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7170 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8) (1eada4ceebf4e82179271acebfab5f7b) switched from CREATED to SCHEDULED.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7184 ] - [ INFO ]  Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_2(825f208212da8a6868e50c747ec44965)
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7185 ] - [ INFO ]  Resolved ResourceManager address, beginning registration
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7186 ] - [ INFO ]  Registering job manager 94865eba32ed5103a0daffec2f154fcc@akka://flink/user/rpc/jobmanager_3 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7189 ] - [ INFO ]  Registered job manager 94865eba32ed5103a0daffec2f154fcc@akka://flink/user/rpc/jobmanager_3 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7191 ] - [ INFO ]  JobManager successfully registered at ResourceManager, leader id: 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7192 ] - [ INFO ]  Received resource requirements from job 3310df324bf65a32085a737eba799ddd: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=8}]
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7195 ] - [ INFO ]  Receive slot request f2d06e3c07f9c6b2b5b32fdaa8f91111 for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7198 ] - [ INFO ]  Allocated slot for f2d06e3c07f9c6b2b5b32fdaa8f91111.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7199 ] - [ INFO ]  Add job 3310df324bf65a32085a737eba799ddd for job leader monitoring.
+2022-08-29 22:17:07  [ mini-cluster-io-thread-4:7200 ] - [ INFO ]  Try to register at job manager akka://flink/user/rpc/jobmanager_3 with leader id a0daffec-2f15-4fcc-9486-5eba32ed5103.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7201 ] - [ INFO ]  Receive slot request bf362d043e95af8e2a7c92336ff1e002 for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7201 ] - [ INFO ]  Allocated slot for bf362d043e95af8e2a7c92336ff1e002.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7201 ] - [ INFO ]  Receive slot request 0721646b7e399c229f9e390169d119cf for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-9:7201 ] - [ INFO ]  Resolved JobManager address, beginning registration
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7201 ] - [ INFO ]  Allocated slot for 0721646b7e399c229f9e390169d119cf.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7202 ] - [ INFO ]  Receive slot request de36a1385ad66df924b72d41a1f63099 for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7202 ] - [ INFO ]  Allocated slot for de36a1385ad66df924b72d41a1f63099.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7202 ] - [ INFO ]  Receive slot request bf47f6a74036b79d0aeb282105ac27b1 for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7202 ] - [ INFO ]  Allocated slot for bf47f6a74036b79d0aeb282105ac27b1.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7203 ] - [ INFO ]  Receive slot request c9cd896b8ae7854cc241bf9b86faed6e for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7203 ] - [ INFO ]  Allocated slot for c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7203 ] - [ INFO ]  Receive slot request 532d46f6bd187cebc6b939671953fe3f for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7203 ] - [ INFO ]  Allocated slot for 532d46f6bd187cebc6b939671953fe3f.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7203 ] - [ INFO ]  Receive slot request 45304cfa1749893a95f9280fdcfda503 for job 3310df324bf65a32085a737eba799ddd from resource manager with leader id 825f208212da8a6868e50c747ec44965.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-5:7204 ] - [ INFO ]  Allocated slot for 45304cfa1749893a95f9280fdcfda503.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7206 ] - [ INFO ]  Successful registration at job manager akka://flink/user/rpc/jobmanager_3 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7206 ] - [ INFO ]  Establish JobManager connection for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7210 ] - [ INFO ]  Offer reserved slots to the leader of job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7216 ] - [ INFO ]  Source: Custom Source (1/1) (ed880356770716eb0ea98328d4d03b66) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7218 ] - [ INFO ]  Deploying Source: Custom Source (1/1) (attempt #0) with attempt id ed880356770716eb0ea98328d4d03b66 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id c9cd896b8ae7854cc241bf9b86faed6e
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7221 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8) (aa05f185bbdbb201ede975c1edc43b5d) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7221 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8) (attempt #0) with attempt id aa05f185bbdbb201ede975c1edc43b5d to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id c9cd896b8ae7854cc241bf9b86faed6e
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7221 ] - [ INFO ]  Activate slot c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7225 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8) (9f746c04aee141f50d32a3955742053e) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7225 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8) (attempt #0) with attempt id 9f746c04aee141f50d32a3955742053e to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id de36a1385ad66df924b72d41a1f63099
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7226 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8) (97aecb496d4d4230bba266c8f19ee2d5) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7226 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8) (attempt #0) with attempt id 97aecb496d4d4230bba266c8f19ee2d5 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id 532d46f6bd187cebc6b939671953fe3f
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7226 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8) (a5120b90cc7c6d951f8042ca537bce58) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7227 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8) (attempt #0) with attempt id a5120b90cc7c6d951f8042ca537bce58 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id f2d06e3c07f9c6b2b5b32fdaa8f91111
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7227 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8) (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7227 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8) (attempt #0) with attempt id 9f3ad56f8432f6b1ce048a6f43ce87b8 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id 45304cfa1749893a95f9280fdcfda503
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7227 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8) (c37d0a8ba6ab8f31e160c45de9d62b39) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7228 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8) (attempt #0) with attempt id c37d0a8ba6ab8f31e160c45de9d62b39 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id 0721646b7e399c229f9e390169d119cf
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7228 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8) (07c0daa3614af29449bf71af6daa1d44) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7228 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8) (attempt #0) with attempt id 07c0daa3614af29449bf71af6daa1d44 to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id bf47f6a74036b79d0aeb282105ac27b1
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7229 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8) (1eada4ceebf4e82179271acebfab5f7b) switched from SCHEDULED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7229 ] - [ INFO ]  Deploying Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8) (attempt #0) with attempt id 1eada4ceebf4e82179271acebfab5f7b to 5d3e0b33-a775-4d97-a7fb-99a0b53aaaac @ 127.0.0.1 (dataPort=-1) with allocation id bf362d043e95af8e2a7c92336ff1e002
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7234 ] - [ INFO ]  StateChangelogStorageLoader initialized with shortcut names {memory}.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7235 ] - [ INFO ]  Creating a changelog storage with name 'memory'.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7283 ] - [ INFO ]  Received task Source: Custom Source (1/1)#0 (ed880356770716eb0ea98328d4d03b66), deploy into slot with allocation id c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7284 ] - [ INFO ]  Source: Custom Source (1/1)#0 (ed880356770716eb0ea98328d4d03b66) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7286 ] - [ INFO ]  Activate slot c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7287 ] - [ INFO ]  Loading JAR files for task Source: Custom Source (1/1)#0 (ed880356770716eb0ea98328d4d03b66) [DEPLOYING].
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7299 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0 (aa05f185bbdbb201ede975c1edc43b5d), deploy into slot with allocation id c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7299 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0 (aa05f185bbdbb201ede975c1edc43b5d) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7300 ] - [ INFO ]  Activate slot de36a1385ad66df924b72d41a1f63099.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7300 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0 (aa05f185bbdbb201ede975c1edc43b5d) [DEPLOYING].
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7305 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0 (9f746c04aee141f50d32a3955742053e), deploy into slot with allocation id de36a1385ad66df924b72d41a1f63099.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7306 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0 (9f746c04aee141f50d32a3955742053e) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7306 ] - [ INFO ]  Activate slot 532d46f6bd187cebc6b939671953fe3f.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7307 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0 (9f746c04aee141f50d32a3955742053e) [DEPLOYING].
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7311 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0 (97aecb496d4d4230bba266c8f19ee2d5), deploy into slot with allocation id 532d46f6bd187cebc6b939671953fe3f.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7312 ] - [ INFO ]  Activate slot f2d06e3c07f9c6b2b5b32fdaa8f91111.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7313 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0 (97aecb496d4d4230bba266c8f19ee2d5) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7314 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0 (97aecb496d4d4230bba266c8f19ee2d5) [DEPLOYING].
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7315 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@5d030522
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7316 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7316 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@2994f59d
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7320 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7315 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@5430d182
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7315 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@11203169
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7320 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7321 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@51cf4538
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7320 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@6c967ecb
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7320 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7318 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0 (a5120b90cc7c6d951f8042ca537bce58), deploy into slot with allocation id f2d06e3c07f9c6b2b5b32fdaa8f91111.
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7321 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@5efbf09a
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7322 ] - [ INFO ]  Activate slot 45304cfa1749893a95f9280fdcfda503.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7317 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@785f9fbe
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7324 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0 (a5120b90cc7c6d951f8042ca537bce58) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7324 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0 (a5120b90cc7c6d951f8042ca537bce58) [DEPLOYING].
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7326 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@372f2fef
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7326 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7326 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@722db76e
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7327 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0 (9f3ad56f8432f6b1ce048a6f43ce87b8), deploy into slot with allocation id 45304cfa1749893a95f9280fdcfda503.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7327 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0 (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7327 ] - [ INFO ]  Activate slot 0721646b7e399c229f9e390169d119cf.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7328 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0 (9f3ad56f8432f6b1ce048a6f43ce87b8) [DEPLOYING].
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7329 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@3dbec92c
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7329 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7330 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@6e3048ff
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7330 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0 (a5120b90cc7c6d951f8042ca537bce58) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7330 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0 (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7330 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0 (9f746c04aee141f50d32a3955742053e) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7331 ] - [ INFO ]  Source: Custom Source (1/1)#0 (ed880356770716eb0ea98328d4d03b66) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7330 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0 (aa05f185bbdbb201ede975c1edc43b5d) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7330 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0 (97aecb496d4d4230bba266c8f19ee2d5) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7331 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0 (c37d0a8ba6ab8f31e160c45de9d62b39), deploy into slot with allocation id 0721646b7e399c229f9e390169d119cf.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7331 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8) (a5120b90cc7c6d951f8042ca537bce58) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7332 ] - [ INFO ]  Activate slot bf47f6a74036b79d0aeb282105ac27b1.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7332 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0 (c37d0a8ba6ab8f31e160c45de9d62b39) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7333 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0 (c37d0a8ba6ab8f31e160c45de9d62b39) [DEPLOYING].
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7336 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8) (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7336 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@7d64158e
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7336 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7336 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8) (9f746c04aee141f50d32a3955742053e) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7337 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@38669446
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7337 ] - [ INFO ]  Source: Custom Source (1/1) (ed880356770716eb0ea98328d4d03b66) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7337 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8) (aa05f185bbdbb201ede975c1edc43b5d) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7338 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0 (c37d0a8ba6ab8f31e160c45de9d62b39) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7338 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8) (97aecb496d4d4230bba266c8f19ee2d5) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7338 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8) (c37d0a8ba6ab8f31e160c45de9d62b39) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7339 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0 (07c0daa3614af29449bf71af6daa1d44), deploy into slot with allocation id bf47f6a74036b79d0aeb282105ac27b1.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7339 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0 (07c0daa3614af29449bf71af6daa1d44) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7339 ] - [ INFO ]  Activate slot bf362d043e95af8e2a7c92336ff1e002.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7340 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0 (07c0daa3614af29449bf71af6daa1d44) [DEPLOYING].
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7341 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@7939e6f2
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7341 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7343 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@3c3b67b1
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7343 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0 (07c0daa3614af29449bf71af6daa1d44) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7345 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8) (07c0daa3614af29449bf71af6daa1d44) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7356 ] - [ INFO ]  Received task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0 (1eada4ceebf4e82179271acebfab5f7b), deploy into slot with allocation id bf362d043e95af8e2a7c92336ff1e002.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7357 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0 (1eada4ceebf4e82179271acebfab5f7b) switched from CREATED to DEPLOYING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7357 ] - [ INFO ]  Loading JAR files for task Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0 (1eada4ceebf4e82179271acebfab5f7b) [DEPLOYING].
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7357 ] - [ INFO ]  Activate slot 0721646b7e399c229f9e390169d119cf.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot 45304cfa1749893a95f9280fdcfda503.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot c9cd896b8ae7854cc241bf9b86faed6e.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot bf362d043e95af8e2a7c92336ff1e002.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot f2d06e3c07f9c6b2b5b32fdaa8f91111.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot de36a1385ad66df924b72d41a1f63099.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7358 ] - [ INFO ]  No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@45941285
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7359 ] - [ INFO ]  State backend loader loads the state backend as HashMapStateBackend
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7358 ] - [ INFO ]  Activate slot 532d46f6bd187cebc6b939671953fe3f.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7359 ] - [ INFO ]  Activate slot bf47f6a74036b79d0aeb282105ac27b1.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7360 ] - [ INFO ]  Using job/cluster config to configure application-defined checkpoint storage: org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage@968453
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7360 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0 (1eada4ceebf4e82179271acebfab5f7b) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7361 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8) (1eada4ceebf4e82179271acebfab5f7b) switched from DEPLOYING to INITIALIZING.
+2022-08-29 22:17:07  [ Source: Custom Source (1/1)#0:7442 ] - [ INFO ]  Source: Custom Source (1/1)#0 (ed880356770716eb0ea98328d4d03b66) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-8:7443 ] - [ INFO ]  Source: Custom Source (1/1) (ed880356770716eb0ea98328d4d03b66) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0:7517 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8)#0 (1eada4ceebf4e82179271acebfab5f7b) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0:7517 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8)#0 (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0:7518 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8)#0 (c37d0a8ba6ab8f31e160c45de9d62b39) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7518 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (8/8) (1eada4ceebf4e82179271acebfab5f7b) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0:7517 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8)#0 (9f746c04aee141f50d32a3955742053e) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7519 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (5/8) (9f3ad56f8432f6b1ce048a6f43ce87b8) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7520 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (6/8) (c37d0a8ba6ab8f31e160c45de9d62b39) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0:7518 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8)#0 (a5120b90cc7c6d951f8042ca537bce58) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0:7518 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8)#0 (07c0daa3614af29449bf71af6daa1d44) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0:7517 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8)#0 (97aecb496d4d4230bba266c8f19ee2d5) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7521 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (2/8) (9f746c04aee141f50d32a3955742053e) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0:7519 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8)#0 (aa05f185bbdbb201ede975c1edc43b5d) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7524 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (4/8) (a5120b90cc7c6d951f8042ca537bce58) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7525 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (7/8) (07c0daa3614af29449bf71af6daa1d44) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7525 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (3/8) (97aecb496d4d4230bba266c8f19ee2d5) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:07  [ flink-akka.actor.default-dispatcher-7:7526 ] - [ INFO ]  Process -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/8) (aa05f185bbdbb201ede975c1edc43b5d) switched from INITIALIZING to RUNNING.
+2022-08-29 22:17:10  [ Checkpoint Timer:10684 ] - [ INFO ]  Triggering checkpoint 1 (type=CHECKPOINT) @ 1661782630642 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:10  [ jobmanager-io-thread-3:10716 ] - [ INFO ]  Completed checkpoint 1 for job 3310df324bf65a32085a737eba799ddd (0 bytes, checkpointDuration=41 ms, finalizationTime=4 ms).
+2022-08-29 22:17:15  [ Checkpoint Timer:15674 ] - [ INFO ]  Triggering checkpoint 2 (type=CHECKPOINT) @ 1661782635641 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:15  [ jobmanager-io-thread-2:15680 ] - [ INFO ]  Completed checkpoint 2 for job 3310df324bf65a32085a737eba799ddd (0 bytes, checkpointDuration=8 ms, finalizationTime=2 ms).
+2022-08-29 22:17:20  [ Checkpoint Timer:20668 ] - [ INFO ]  Triggering checkpoint 3 (type=CHECKPOINT) @ 1661782640638 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:20  [ jobmanager-io-thread-3:20673 ] - [ INFO ]  Completed checkpoint 3 for job 3310df324bf65a32085a737eba799ddd (0 bytes, checkpointDuration=5 ms, finalizationTime=1 ms).
+2022-08-29 22:17:25  [ Checkpoint Timer:25668 ] - [ INFO ]  Triggering checkpoint 4 (type=CHECKPOINT) @ 1661782645638 for job 3310df324bf65a32085a737eba799ddd.
+2022-08-29 22:17:25  [ jobmanager-io-thread-4:25672 ] - [ INFO ]  Completed checkpoint 4 for job 3310df324bf65a32085a737eba799ddd (0 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2022-08-29 22:17:30  [ PermanentBlobCache shutdown hook:30368 ] - [ INFO ]  Shutting down BLOB cache
+2022-08-29 22:17:30  [ TaskExecutorLocalStateStoresManager shutdown hook:30368 ] - [ INFO ]  Shutting down TaskExecutorLocalStateStoresManager.
+2022-08-29 22:17:30  [ TransientBlobCache shutdown hook:30370 ] - [ INFO ]  Shutting down BLOB cache
+2022-08-29 22:17:30  [ TaskExecutorStateChangelogStoragesManager shutdown hook:30368 ] - [ INFO ]  Shutting down TaskExecutorStateChangelogStoragesManager.
+2022-08-29 22:17:30  [ FileCache shutdown hook:30374 ] - [ INFO ]  removed file cache directory C:\Users\ADMINI~1\AppData\Local\Temp\flink-dist-cache-1653d6e6-ef83-4052-9597-fb2cef4e3039
+2022-08-29 22:17:30  [ FileChannelManagerImpl-netty-shuffle shutdown hook:30375 ] - [ INFO ]  FileChannelManager removed spill file directory C:\Users\ADMINI~1\AppData\Local\Temp\flink-netty-shuffle-8b3a9454-da46-49ed-866b-09fcbb538cb9
+2022-08-29 22:17:30  [ BlobServer shutdown hook:30376 ] - [ INFO ]  Stopped BLOB server at 0.0.0.0:4536
+2022-08-29 22:17:30  [ FileChannelManagerImpl-io shutdown hook:30377 ] - [ INFO ]  FileChannelManager removed spill file directory C:\Users\ADMINI~1\AppData\Local\Temp\flink-io-1512db67-4f85-45b3-b168-62b371507a05
